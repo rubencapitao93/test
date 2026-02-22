@@ -7,7 +7,10 @@ The unit-tests can be found under `tests` folder.
 Project dependencies are defined in the `requirements.txt` file.
 
 ## How to use
-Run `python src/application.py` in your favourite terminal.
+- Ensure Python version `>=3.9`.
+- Install dependencies: `pip install -e .`.
+- Run the aplication: `python src/application.py`.
 
 ## How to test
-Run `pytest` in your favourite terminal.
+- Rnstall dependencies by running `pip install -e ".[test]"`
+- Run the tests: `pytest`.
